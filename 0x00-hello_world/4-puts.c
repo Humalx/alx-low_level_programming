@@ -1,7 +1,11 @@
 #include <stdio.h>
-int main()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-  fputs("\"\Programming is like building a multilingual puzzle",stdout);
-  getchar();
-  return 0;
+puts("\"\Programming is like building a multilingual puzzle");
+return (0);
 }
